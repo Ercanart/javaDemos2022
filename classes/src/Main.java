@@ -15,7 +15,7 @@ public class Main {
         customerManager.Update();
         */
 
-        // value type
+        // value type - değer tipler sadece stack de çalışır.
         int sayi1 = 10;
         int sayi2 = 20;
         sayi2 = sayi1;
