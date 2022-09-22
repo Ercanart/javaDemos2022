@@ -25,7 +25,7 @@ public class Main {
         return sayi1 + sayi2;
     }
 
-    //variable arguments : arka planda, verileri array'e dönüştürüyor.
+    //variable arguments(...) : arka planda, verileri array'e dönüştürüyor.
     public static int topla2(int... sayilar){
         int toplam=0;
         for (int sayi:sayilar){
