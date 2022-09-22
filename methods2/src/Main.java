@@ -14,11 +14,11 @@ public class Main {
     }
 
     public static void sil(){
-        System.out.println("Eklendi");
+        System.out.println("Silindi");
     }
 
     public static void guncele(){
-        System.out.println("Eklendi");
+        System.out.println("Güncellendi");git
     }
 
     public static int topla(int sayi1, int sayi2){         //int olunca, bu fonksiyon int veri türünde bir değer döndürür demek.
