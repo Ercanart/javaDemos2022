@@ -74,5 +74,5 @@ public class Product {
     public String getKod() {
         return this.name.substring(0,1) +id;
     }
-
+  //sağ tıkla / refactor / encapsulate fields -- getter ve setter oluşturmak için!
 }
