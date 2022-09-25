@@ -5,3 +5,5 @@ public class Main {
         krediUI.KrediHesapla(new AskerKrediManager());
     }
 }
+//Bir class sadece bir class'ı extend edebilir.
+//polimorfizm
