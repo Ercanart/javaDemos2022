@@ -1,5 +1,5 @@
 public class Product {
-
+    //parametreli constructor
     public Product(int id, String name, String description, double price, int stockAmount, String renk){
         System.out.println("Yapıcı blok çalıstı!");
         this.id=id;
@@ -8,8 +8,9 @@ public class Product {
         this.price=price;
         this.stockAmount=stockAmount;
         this.setRenk(renk);
+        //Over loading
     }
-
+    //parametresiz constructor
     public Product(){
 
     }
