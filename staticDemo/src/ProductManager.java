@@ -9,8 +9,8 @@ public class ProductManager {
         //Bunları yerine;
         // ProductValidator class ını new lemek yerine, class ı kendi sayfasında static yaptık.
         //Bu nedenle aşağıda, isValid metodu ile kullanabildik. Statikle new'lenen class'ın, yalnızca bir örneği oluşur.
-        //Statik' de class ı ilkl new leyen kulllanıcı nesneyi oluşturur,
-        // sonrasında ise diğer kullanıcılar da aynı nesneyi kullanır.
+        //Statik' de class ı ilk new leyen kulllanıcı nesneyi oluşturur,
+        //gitsonrasında ise diğer kullanıcılar da aynı nesneyi kullanır.
         //Manager sınıfları statik yapılmaz!
         //statikler direkt class ismi ile çağrılır.
         if (ProductValidator.isValid(product)) {
